@@ -5,7 +5,7 @@ services:
     container_name: womginx
     environment:
       - PORT=80
-      - SAFE_BROWSING=1
+      - SAFE_BROWSING=0
     ports:
       - 80:80
     restart: unless-stopped
